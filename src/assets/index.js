@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import mantine from "./tech/mantine.svg";
+import next from "./tech/next.svg";
 
 import cagtu from "./company/cagtu.png";
 import ekbana from "./company/ekbana.png";
@@ -53,6 +55,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  mantine,
+  next,
   cagtu,
   ekbana,
   shopify,

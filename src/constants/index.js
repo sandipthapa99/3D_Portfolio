@@ -10,8 +10,6 @@ import {
     reactjs,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
     docker,
@@ -19,8 +17,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    mantine,
     cagtu,
     ekbana,
+    next,
   } from "../assets";
   
   export const navLinks = [
@@ -79,6 +79,10 @@ import {
       icon: reactjs,
     },
     {
+      name: "Next JS",
+      icon: next,
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -87,16 +91,12 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
+    },
+    {
+      name: "Mantine UI",
+      icon: mantine,
     },
     {
       name: "git",
