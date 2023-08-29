@@ -13,14 +13,15 @@ import {
     git,
     figma,
     docker,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     mantine,
     cagtu,
     ekbana,
     next,
+    homaale,
+    exergym,
+    portfolio,
+    cagtunepal,
   } from "../assets";
   
   export const navLinks = [
@@ -180,30 +181,51 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Homaale",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Homaale is a platform designed to provide service booking solutions to the service seekers and business opportunities to various service providing companies by bridging a gap between them.",
       tags: [
         {
-          name: "react",
+          name: "NextJS",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Typescript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Redux",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: homaale,
+      source_code_link: "https://homaale.com/",
     },
     {
-      name: "Job IT",
+      name: "Cagtu Nepal",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Cagtu Nepal is an Information Technology Company focusing purely on E-commerce and Technology for Innovators. ",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cagtunepal,
+      source_code_link: "https://homaale.com/",
+    },
+    {
+      name: "ExerGym",
+      description:
+        "ExerGym is a React application that provides user with the gym exercises solutions. Users can search for any kind of exercises based on target muscles or equipments they want to use.",
       tags: [
         {
           name: "react",
@@ -218,13 +240,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: exergym,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Portfolio Site",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "In this digital era it has been mandatory to have digital exiatence. It becomes even more neccessary for the people in IT field. Personal portfolio website the resume of this digital world.",
       tags: [
         {
           name: "nextjs",
@@ -239,7 +261,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: portfolio,
       source_code_link: "https://github.com/",
     },
   ];
