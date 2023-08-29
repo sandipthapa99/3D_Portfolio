@@ -5,9 +5,17 @@ import CanvasLoader from "../Loader";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 
 const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
+  const earth = useGLTF("./earth/scene.gltf");
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <mesh>
+      <hemisphereLight intensity={3} groundColor="black" />
+      <primitive
+        object={earth.scene}
+        scale={10}
+        position-y={0}
+        rotation-y={0}
+      />
+    </mesh>
   );
 };
 
@@ -25,12 +33,7 @@ const EarthCanvas = () => {
       }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          autoRotate
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-        />
+        <OrbitControls autoRotate enableZoom={false} />
         <Earth />
       </Suspense>
     </Canvas>
