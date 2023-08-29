@@ -215,12 +215,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Redux",
+          name: "SCSS",
           color: "pink-text-gradient",
         },
       ],
       image: cagtunepal,
-      source_code_link: "https://homaale.com/",
+      source_code_link: "https://www.cagtunepal.com/",
     },
     {
       name: "ExerGym",
@@ -228,20 +228,17 @@ import {
         "ExerGym is a React application that provides user with the gym exercises solutions. Users can search for any kind of exercises based on target muscles or equipments they want to use.",
       tags: [
         {
-          name: "react",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "RapidAPI",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+       
       ],
       image: exergym,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://exergym.netlify.app/",
     },
     {
       name: "Portfolio Site",
@@ -249,20 +246,16 @@ import {
         "In this digital era it has been mandatory to have digital exiatence. It becomes even more neccessary for the people in IT field. Personal portfolio website the resume of this digital world.",
       tags: [
         {
-          name: "nextjs",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
           name: "css",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: portfolio,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.sandipthapa.com.np/",
     },
   ];
   
